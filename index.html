@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday Maharani❤️♥️!</title>
+  <title>Happy Birthday Rekha Shrestha!</title>
   <style>
     /* General Styles */
     body {
@@ -21,6 +21,7 @@
     .container {
       text-align: center;
       color: #fff;
+      padding: 20px;
     }
 
     h1 {
@@ -31,6 +32,13 @@
     p {
       font-size: 1.5rem;
       animation: slideIn 2s ease-in-out;
+      margin: 10px 0;
+    }
+
+    .special-message {
+      font-size: 1.2rem;
+      font-style: italic;
+      animation: fadeIn 3s ease-in-out;
     }
 
     .balloons {
@@ -105,13 +113,50 @@
         transform: translateX(0);
       }
     }
+
+    .confetti {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #ff6f61;
+      border-radius: 50%;
+      animation: confetti-fall 5s linear infinite;
+    }
+
+    @keyframes confetti-fall {
+      0% {
+        transform: translateY(-100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+      }
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+      .special-message {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Happy Birthday Maharani!♥️</h1>
-    <p>Wishing you a day filled with love, laughter, and joy! 🎉🎂</p>
-    <p>From: Laxman</p>
+    <h1>Happy Birthday Maharani</h1>
+    <p>Today is all about YOU! 🎉🎂</p>
+    <p>You are the kind of person who lights up every room you walk into. 🌟</p>
+    <p>Your smile is contagious, and your heart is pure gold. 💛</p>
+    <p>May this year bring you endless happiness, success, and love. 💖</p>
+    <p>You deserve the world and so much more! 🌍✨</p>
+    <p class="special-message">"Rekha, you are not just a friend, you are family. Thank you for being the amazing person you are. I am so grateful to have you in my life. Here's to many more memories together!"</p>
+    <p>With all my love,</p>
+    <p>Laxman💌</p>
     <div class="balloons">
       <div class="balloon"></div>
       <div class="balloon"></div>
